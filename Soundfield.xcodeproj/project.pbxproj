@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD30EAFD201C5A5500F66868 /* Colours.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30EAFC201C5A5500F66868 /* Colours.swift */; };
+		CD30EAFF201C5BAD00F66868 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30EAFE201C5BAD00F66868 /* Tools.swift */; };
+		CD86B567201C3D2B007A952F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD86B566201C3D2B007A952F /* AppDelegate.swift */; };
+		CD86B569201C3D2B007A952F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD86B568201C3D2B007A952F /* ViewController.swift */; };
+		CD86B56C201C3D2B007A952F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD86B56A201C3D2B007A952F /* Main.storyboard */; };
+		CD86B56E201C3D2B007A952F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD86B56D201C3D2B007A952F /* Assets.xcassets */; };
+		CD86B571201C3D2B007A952F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD86B56F201C3D2B007A952F /* LaunchScreen.storyboard */; };
+		CD86B57C201C3D2B007A952F /* SoundfieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD86B57B201C3D2B007A952F /* SoundfieldTests.swift */; };
+		CD86B587201C3D2B007A952F /* SoundfieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD86B586201C3D2B007A952F /* SoundfieldUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD86B578201C3D2B007A952F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD86B55B201C3D2B007A952F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD86B562201C3D2B007A952F;
+			remoteInfo = Soundfield;
+		};
+		CD86B583201C3D2B007A952F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD86B55B201C3D2B007A952F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD86B562201C3D2B007A952F;
+			remoteInfo = Soundfield;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD30EAFC201C5A5500F66868 /* Colours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colours.swift; sourceTree = "<group>"; };
+		CD30EAFE201C5BAD00F66868 /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		CD86B563201C3D2B007A952F /* Soundfield.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soundfield.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD86B566201C3D2B007A952F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD86B568201C3D2B007A952F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD86B56B201C3D2B007A952F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD86B56D201C3D2B007A952F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD86B570201C3D2B007A952F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD86B572201C3D2B007A952F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD86B577201C3D2B007A952F /* SoundfieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundfieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD86B57B201C3D2B007A952F /* SoundfieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundfieldTests.swift; sourceTree = "<group>"; };
+		CD86B57D201C3D2B007A952F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD86B582201C3D2B007A952F /* SoundfieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundfieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD86B586201C3D2B007A952F /* SoundfieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundfieldUITests.swift; sourceTree = "<group>"; };
+		CD86B588201C3D2B007A952F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD86B560201C3D2B007A952F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD86B574201C3D2B007A952F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD86B57F201C3D2B007A952F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD86B55A201C3D2B007A952F = {
+			isa = PBXGroup;
+			children = (
+				CD86B565201C3D2B007A952F /* Soundfield */,
+				CD86B57A201C3D2B007A952F /* SoundfieldTests */,
+				CD86B585201C3D2B007A952F /* SoundfieldUITests */,
+				CD86B564201C3D2B007A952F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD86B564201C3D2B007A952F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD86B563201C3D2B007A952F /* Soundfield.app */,
+				CD86B577201C3D2B007A952F /* SoundfieldTests.xctest */,
+				CD86B582201C3D2B007A952F /* SoundfieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD86B565201C3D2B007A952F /* Soundfield */ = {
+			isa = PBXGroup;
+			children = (
+				CD86B566201C3D2B007A952F /* AppDelegate.swift */,
+				CD86B568201C3D2B007A952F /* ViewController.swift */,
+				CD86B56A201C3D2B007A952F /* Main.storyboard */,
+				CD30EAFC201C5A5500F66868 /* Colours.swift */,
+				CD30EAFE201C5BAD00F66868 /* Tools.swift */,
+				CD86B56D201C3D2B007A952F /* Assets.xcassets */,
+				CD86B56F201C3D2B007A952F /* LaunchScreen.storyboard */,
+				CD86B572201C3D2B007A952F /* Info.plist */,
+			);
+			path = Soundfield;
+			sourceTree = "<group>";
+		};
+		CD86B57A201C3D2B007A952F /* SoundfieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD86B57B201C3D2B007A952F /* SoundfieldTests.swift */,
+				CD86B57D201C3D2B007A952F /* Info.plist */,
+			);
+			path = SoundfieldTests;
+			sourceTree = "<group>";
+		};
+		CD86B585201C3D2B007A952F /* SoundfieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD86B586201C3D2B007A952F /* SoundfieldUITests.swift */,
+				CD86B588201C3D2B007A952F /* Info.plist */,
+			);
+			path = SoundfieldUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD86B562201C3D2B007A952F /* Soundfield */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD86B58B201C3D2B007A952F /* Build configuration list for PBXNativeTarget "Soundfield" */;
+			buildPhases = (
+				CD86B55F201C3D2B007A952F /* Sources */,
+				CD86B560201C3D2B007A952F /* Frameworks */,
+				CD86B561201C3D2B007A952F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Soundfield;
+			productName = Soundfield;
+			productReference = CD86B563201C3D2B007A952F /* Soundfield.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD86B576201C3D2B007A952F /* SoundfieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD86B58E201C3D2B007A952F /* Build configuration list for PBXNativeTarget "SoundfieldTests" */;
+			buildPhases = (
+				CD86B573201C3D2B007A952F /* Sources */,
+				CD86B574201C3D2B007A952F /* Frameworks */,
+				CD86B575201C3D2B007A952F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD86B579201C3D2B007A952F /* PBXTargetDependency */,
+			);
+			name = SoundfieldTests;
+			productName = SoundfieldTests;
+			productReference = CD86B577201C3D2B007A952F /* SoundfieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD86B581201C3D2B007A952F /* SoundfieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD86B591201C3D2B007A952F /* Build configuration list for PBXNativeTarget "SoundfieldUITests" */;
+			buildPhases = (
+				CD86B57E201C3D2B007A952F /* Sources */,
+				CD86B57F201C3D2B007A952F /* Frameworks */,
+				CD86B580201C3D2B007A952F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD86B584201C3D2B007A952F /* PBXTargetDependency */,
+			);
+			name = SoundfieldUITests;
+			productName = SoundfieldUITests;
+			productReference = CD86B582201C3D2B007A952F /* SoundfieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD86B55B201C3D2B007A952F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Zachary Stegall";
+				TargetAttributes = {
+					CD86B562201C3D2B007A952F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CD86B576201C3D2B007A952F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD86B562201C3D2B007A952F;
+					};
+					CD86B581201C3D2B007A952F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD86B562201C3D2B007A952F;
+					};
+				};
+			};
+			buildConfigurationList = CD86B55E201C3D2B007A952F /* Build configuration list for PBXProject "Soundfield" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD86B55A201C3D2B007A952F;
+			productRefGroup = CD86B564201C3D2B007A952F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD86B562201C3D2B007A952F /* Soundfield */,
+				CD86B576201C3D2B007A952F /* SoundfieldTests */,
+				CD86B581201C3D2B007A952F /* SoundfieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD86B561201C3D2B007A952F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD86B571201C3D2B007A952F /* LaunchScreen.storyboard in Resources */,
+				CD86B56E201C3D2B007A952F /* Assets.xcassets in Resources */,
+				CD86B56C201C3D2B007A952F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD86B575201C3D2B007A952F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD86B580201C3D2B007A952F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD86B55F201C3D2B007A952F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD86B569201C3D2B007A952F /* ViewController.swift in Sources */,
+				CD30EAFD201C5A5500F66868 /* Colours.swift in Sources */,
+				CD86B567201C3D2B007A952F /* AppDelegate.swift in Sources */,
+				CD30EAFF201C5BAD00F66868 /* Tools.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD86B573201C3D2B007A952F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD86B57C201C3D2B007A952F /* SoundfieldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD86B57E201C3D2B007A952F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD86B587201C3D2B007A952F /* SoundfieldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD86B579201C3D2B007A952F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD86B562201C3D2B007A952F /* Soundfield */;
+			targetProxy = CD86B578201C3D2B007A952F /* PBXContainerItemProxy */;
+		};
+		CD86B584201C3D2B007A952F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD86B562201C3D2B007A952F /* Soundfield */;
+			targetProxy = CD86B583201C3D2B007A952F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD86B56A201C3D2B007A952F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD86B56B201C3D2B007A952F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD86B56F201C3D2B007A952F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD86B570201C3D2B007A952F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD86B589201C3D2B007A952F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD86B58A201C3D2B007A952F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD86B58C201C3D2B007A952F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2NW3G6MD6;
+				INFOPLIST_FILE = Soundfield/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zacharystegall.Soundfield;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD86B58D201C3D2B007A952F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2NW3G6MD6;
+				INFOPLIST_FILE = Soundfield/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zacharystegall.Soundfield;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD86B58F201C3D2B007A952F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2NW3G6MD6;
+				INFOPLIST_FILE = SoundfieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zacharystegall.SoundfieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soundfield.app/Soundfield";
+			};
+			name = Debug;
+		};
+		CD86B590201C3D2B007A952F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2NW3G6MD6;
+				INFOPLIST_FILE = SoundfieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zacharystegall.SoundfieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soundfield.app/Soundfield";
+			};
+			name = Release;
+		};
+		CD86B592201C3D2B007A952F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2NW3G6MD6;
+				INFOPLIST_FILE = SoundfieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zacharystegall.SoundfieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Soundfield;
+			};
+			name = Debug;
+		};
+		CD86B593201C3D2B007A952F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2NW3G6MD6;
+				INFOPLIST_FILE = SoundfieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zacharystegall.SoundfieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Soundfield;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD86B55E201C3D2B007A952F /* Build configuration list for PBXProject "Soundfield" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD86B589201C3D2B007A952F /* Debug */,
+				CD86B58A201C3D2B007A952F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD86B58B201C3D2B007A952F /* Build configuration list for PBXNativeTarget "Soundfield" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD86B58C201C3D2B007A952F /* Debug */,
+				CD86B58D201C3D2B007A952F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD86B58E201C3D2B007A952F /* Build configuration list for PBXNativeTarget "SoundfieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD86B58F201C3D2B007A952F /* Debug */,
+				CD86B590201C3D2B007A952F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD86B591201C3D2B007A952F /* Build configuration list for PBXNativeTarget "SoundfieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD86B592201C3D2B007A952F /* Debug */,
+				CD86B593201C3D2B007A952F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD86B55B201C3D2B007A952F /* Project object */;
+}
